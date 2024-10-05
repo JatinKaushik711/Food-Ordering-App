@@ -1,0 +1,15 @@
+node_modules/*
+# Node modules
+
+# Build output
+dist/*
+
+# Parcel cache
+.cache/*
+.parcel-cache/*
+
+# Log files
+*.log
+
+# Environment variables
+.env
