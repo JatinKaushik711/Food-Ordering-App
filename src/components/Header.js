@@ -11,11 +11,13 @@ const Header = () => {
 
    //Subscribing to the store using a selector
    const cartItems = useSelector((store)=>store.cart.items);
+   alert("Please turn ON your Allow CORS extension");
+
 
     return(
         <div className = "flex justify-between bg-gradient-to-r from-fuchsia-800 from-80% shadow-lg mb-4 rounded-lg h-auto"> 
         <div className = "logo-container">
-            <img className = "w-56 rounded-md shadow-xl mt-2 ml-1 hover:cursor-pointer" src= {LOGO_URL}/>
+            <img className = "w-56 rounded-xl shadow-xl mt-2 ml-1 hover:cursor-pointer " src= {LOGO_URL}/>
         </div>
         <div className = "flex items-center">
             <ul className = "flex p-16 m-6 px-2 items-center">

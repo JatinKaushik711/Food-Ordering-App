@@ -37,7 +37,7 @@ const Body = () => {
 
 
     return(
-    <div className = "body bg-slate-50">
+    <div className = "body bg-gradient-to-bl from-fuchsia-50">
      <div className= "filter flex items-center">
         <div className = "m-4 p-4">
             <input type = "text"
